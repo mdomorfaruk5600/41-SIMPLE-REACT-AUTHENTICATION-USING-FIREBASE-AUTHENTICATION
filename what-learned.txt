@@ -1,0 +1,7 @@
+signOut() promise of 'react/auth' is used to signout a user. the arg is the getAuth() method returns / current auth.
+    ==> import {signOut} from 'react/auth';
+        signOut(auth).then(res => {
+      console.log(res);
+    }).catch(error => {
+      
+    })
